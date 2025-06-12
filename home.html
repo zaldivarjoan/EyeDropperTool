@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Dropper Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Eye Dropper Tool</h1>
+    <p>Use this tool to select and identify colors from your screen.</p>
+    <div class="container">
+        <h1>Eye Dropper Tool</h1>
+        <input type="file" id="imageLoader" accept="image/*">
+        <canvas id="imageCanvas"></canvas>
+        <div id="colorDisplay">
+        <div id="colorBox"></div>
+        <p id="colorInfo">Hover over image to get color</p>    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
